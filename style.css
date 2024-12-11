@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(13, 14, 36);
+}
+
+.calander-container{
+    background-color: #fff;
+    width: 300px;
+    text-align-last: center;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(246, 246, 246, 0.3); 
+    overflow: hidden;
+    font-weight: bold;
+}
+
+.mounth-name{
+    margin: 0;
+    padding: 12px;
+    color: #fff;
+    background-color: dodgerblue;
+    font-size: 33px;
+}
+
+.day-name{
+   font-size: 20px;
+color: rgb(45,45,45); 
+}
+
+.day-number{
+    font-size: 80px;
+    margin: 0;
+    color: dodgerblue;
+}
+
+.year{
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: 700px;
+}
